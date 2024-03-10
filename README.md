@@ -99,6 +99,34 @@ En implémentant l'interface `Serializable`, cette classe peut être facilement 
 ### Exercice 2
 #### `Client` vs `Serveur`
 - Commencer par compiler tout les fichier  puis lancer le client puis le serveur
-- 
+  ![Logo Markdown](img/1.png)
+
+  ![Logo Markdown](img/2.png)
+
+  ![Logo Markdown](img/3.png)
+
+  ![Logo Markdown](img/4.png)
+
+
+- Commencer par compiler tout les fichier  puis lancer le serveur puis le premier client et le deuxième client.
+
+    ![Logo Markdown](img/5.png)
+
+    ![Logo Markdown](img/6.png)
+  
+    ![Logo Markdown](img/7.png)
+
+
+- après une longue séquence de jeu le deuxième joueur a perdu
+
+    ![Logo Markdown](img/8.png)
+
+  
+# Conclusion
+
+En résumé, nous avons examiné le jeu du morpion basé sur un modèle client-serveur en utilisant la classe `java.net.DatagramSocket` pour la communication entre les deux parties. Nous avons exploré les choix techniques effectués dans chaque cas et étudié la classe `MorpionData` qui stocke les coordonnées de chaque coup effectué par le joueur. Les tests ont démontré que la communication entre les programmes client et serveur fonctionne correctement. Cependant, ce programme présente des limites en termes de sécurité et de robustesse, notamment l'absence d'authentification et de chiffrement. Les perspectives d'amélioration pourraient inclure l'ajout de fonctionnalités visant à renforcer la sécurité et la résilience aux attaques. De plus, le développement de ce jeu peut contribuer à l'amélioration des compétences des programmeurs en Java et à la compréhension des principes de la programmation orientée objet (POO) et des protocoles de réseau tels que le protocole de datagramme utilisateur (UDP).
+
+
+
 
 
